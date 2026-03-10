@@ -205,7 +205,7 @@ dev.off()
 
 pdf(file = "Plots/ARIMA_sample_diffs.pdf", width = 4, height = 3.2) 
 par(mar = c(4,4,1,1))
-plot(delta_X, type = "l", ylab = "delta X_t")
+plot(delta_X, type = "l", ylab = expression(paste(nabla*X[t])))
 points(delta_X)
 dev.off()
 
